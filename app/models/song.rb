@@ -1,5 +1,3 @@
 class Song < ApplicationRecord
-  def index
-    
-  end
+  belongs_to :artist 
 end
